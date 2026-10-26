@@ -1,0 +1,10 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+}
+
+.gridContainer > div {
+  border: medium;
+  border-color: pink;
+  border-style: solid;
+}
